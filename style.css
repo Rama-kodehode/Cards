@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.card {
+  text-align: start;
+  padding: 40px 40px 50px;
+  width: 200px;
+  height: 350px;
+}
+
+.card svg {
+  margin-bottom: 30px;
+}
+
+.title {
+  margin-bottom: 30px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+p {
+  margin-bottom: 90px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+/* a {
+  background-color: #ccc;
+  width: 100px;
+  height: 100px;
+} */
+
+.card:nth-child(1) {
+  background: rgb(226, 133, 37);
+  border-radius: 10px 0px 0px 10px;
+}
+
+.card:nth-child(2) {
+  background: hsl(184, 100%, 22%);
+}
+
+.card:nth-child(3) {
+  background: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0px;
+}
+
+/* Solution to have a the link each class */
+.fake-button {
+  text-decoration: none;
+  background-color: whitesmoke;
+  padding: 13px 28px;
+  border-radius: 25px;
+}
+
+.link1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.link2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.link3 {
+  color: hsl(179, 100%, 13%);
+}
+
+/* a {
+  color: orange;
+} */
